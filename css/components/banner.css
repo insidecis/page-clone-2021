@@ -9,9 +9,18 @@
   justify-content: center;
   align-items: center;
 }
+@keyframes rotateLogo {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
 .banner img {
   width: 70px;
   height: auto;
+  animation: rotateLogo 5s ease-in-out infinite;
 }
 .banner-title {
   display: flex;
