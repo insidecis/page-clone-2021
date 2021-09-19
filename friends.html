@@ -8,35 +8,6 @@
     <title>Friends - Kokoa Talk Clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>110%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
-
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
-    </header>
-
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -63,48 +34,89 @@
         </li>
       </ul>
     </nav>
-
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F24283C3858F778CA2EFABE"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Inside</h4>
-            <!-- <h6 class="user-component__subtitle">whatever</h6> -->
-          </div>
+    <div class="body-outline">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
         </div>
-        <div class="user-component__column"></div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>110%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Chanel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
+
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
+      </header>
+
+      <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
+
+      <main class="friends-screen">
         <div class="user-component">
           <div class="user-component__column">
             <img
               src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F24283C3858F778CA2EFABE"
-              class="user-component__avatar user-component__avatar--xsm"
+              class="user-component__avatar user-component__avatar--xl"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
+              <h4 class="user-component__title">Inside</h4>
               <!-- <h6 class="user-component__subtitle">whatever</h6> -->
             </div>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+          <div class="friends-screen__channel-header">
+            <span>Chanel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile7.uf.tistory.com%2Fimage%2F24283C3858F778CA2EFABE"
+                class="user-component__avatar user-component__avatar--xsm"
+              />
+              <div class="user-component__text">
+                <h4
+                  class="user-component__title user-component__title--not-bold"
+                >
+                  Channel
+                </h4>
+                <!-- <h6 class="user-component__subtitle">whatever</h6> -->
+              </div>
+            </div>
+            <div class="user-component__column">
+              <div>
+                <span>2</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+              </div>
             </div>
           </div>
         </div>
+      </main>
+    </div>
+    <div class="banner">
+      <img src="https://nomadcoders.co/m.svg" />
+      <div class="banner-title">
+        <span>Nomad Coders</span>
+        <span
+          ><a href="https://nomadcoders.co/">https://nomadcoders.co/</a></span
+        >
       </div>
-    </main>
+    </div>
     <div id="splash-screen">
       <i class="fas fa-comment fa-2x"></i>
     </div>

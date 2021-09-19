@@ -1,0 +1,29 @@
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 12vh;
+  bottom: 0px;
+  background-color: #303030;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  width: 70px;
+  height: auto;
+}
+.banner-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.banner-title span {
+  color: #ff9502;
+  font-weight: 600;
+  font-size: 20px;
+}
+.banner-title a {
+  color: white;
+  opacity: 0.4;
+}
